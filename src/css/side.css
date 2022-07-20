@@ -1,0 +1,17 @@
+.Side_container{
+    width: 50px;
+    background-color: rgb(29, 165, 29);
+    text-align: center;
+}
+
+.Side_container ul{
+    list-style: none;
+}
+.Side_container ul li {
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+}
+
+.Side_container ul li a{
+    color: #fff;
+}

@@ -1,0 +1,207 @@
+.center{
+    background: #ecec;
+    width: 100%;
+    display: flex; 
+}
+
+.main_center_container{
+    display: flex;
+    padding: 10px 0 10px 10px;
+    width: calc(100% - 10px);
+}
+
+
+.chart{
+    width: 80%;
+    padding: 0 20px 0 10px;
+}
+
+.chart_img img{
+    width: 100%;
+}
+
+.rightside{
+    width: 20%;
+    background: #fff;
+    padding: 10px 15px;
+}
+
+/* right class start here  */
+
+.right_side_content h3{
+    color: #fe9114;
+}
+
+.notice_h{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.right_side_content ul li{
+        padding: 10px 0;
+        font-size: 14px;
+
+}
+
+.notice_time{
+    font-weight: 500;
+}
+
+.show_all_notice{
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fe9114;
+}
+
+
+/* right class end here  */
+
+
+/* OverView Class start here  */
+
+.OverView{
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+.tabs_con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.tabs_ul ul{
+    display: flex;
+    justify-content: center;
+}
+.active{
+    background: #fe9114 !important;
+}
+
+.tabs_a{
+        padding: 6px 15px;
+        background: #afafaf;
+        margin: 0 10px;
+        color: #fff;
+        border-radius: 10px;
+        text-transform: uppercase;
+}
+
+
+
+/* OverView Class end here  */
+
+.table_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.table{
+    border: 1px solid rgb(194, 190, 190);
+    width: 48%;
+}
+
+table{
+     width: 100%;
+}
+
+
+tr th {
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: left;
+    padding: 3px 10px;
+    border-bottom: 1px solid rgb(194, 190, 190);
+}
+
+tr td {
+    padding: 0 10px;
+}
+
+.view{
+    color: #fe9114;
+}
+.recent_data{
+    width: 100%;
+    border-bottom: 1px solid #afafaf;
+}
+
+.recent_data ul{
+    display: flex;
+}
+
+.recent_data ul li {
+    padding: 20px 35px; 
+}
+
+.recent_data ul li a {
+    color: #afafaf;
+}
+
+.active_recent{
+    border-bottom: 2px solid #fe9114;
+}
+
+.recent_sec_data{
+    display: flex;
+}
+
+.first_data{
+    width: 40%;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.second_data{
+    width: 60%;
+    margin: 0 10px;
+}
+.first_data li {
+    margin: 15px 0;
+}
+
+.second_data li {
+    margin: 10px 0;
+}
+
+.first_data li:nth-child(1){
+    padding: 5px 20px;
+    background: blue;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.first_data li:nth-child(2){
+    padding: 5px 20px;
+    background: blue;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.first_data li:nth-child(3){
+    padding: 5px 20px;
+    background: green;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.first_data li:nth-child(4){
+    padding: 5px 20px;
+    background: red;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.second_data li p:nth-child(1){
+    font-weight: 500;
+} 
+
+.second_data li p:nth-child(2){
+    color: #afafaf;
+} 
+
+.tabs_con_recent{
+    padding: 20px 0;
+}
